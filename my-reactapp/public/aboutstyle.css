@@ -1,0 +1,63 @@
+body {
+    background-color: #434343;
+}
+
+p {
+    color: whitesmoke;
+    font-family: 'Spartan';
+}
+
+
+.nav-link {
+    color: whitesmoke;
+    font-family: 'Spartan';
+}
+
+.flex-container {
+    flex-direction: column;
+}
+
+/* .flex-column {
+    margin-left: 170px;
+    margin-top: 35px;
+} */
+
+.nav-link {
+    text-align: left;
+}
+
+.myname {
+    color: whitesmoke;
+    display: block;
+    padding: .5rem 1rem;
+    font-family: 'Spartan';
+}
+
+#picofme {
+  width: 25%;
+  opacity: 0.75;
+  
+}
+
+#picofme:hover {
+    transition: .25s ease-in-out;
+}
+
+
+#picofme:hover {
+    opacity: 1;
+}
+
+.fa-code {
+    font-size: 5vw;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 85px;
+    list-style: none;
+}
